@@ -11,9 +11,15 @@ const profile = ref({
 
 <template>
   <main class="flex min-h-screen flex-col items-center px-4 py-8">
-    <div>
-      <img :src="profile.avatar" :alt="profile.name">
-      <h1>{{ profile.name }}</h1>
+    <div class="h-24 w-24">
+      <div class="h-24 w-24">
+      <img 
+      :src="profile.avatar" 
+      :alt="profile.name"
+      class="h-full w-full overflow-hidden rounded-full"
+      />
+    </div
+    ><h1>{{ profile.name }}</h1>
       <p>{{ profile.slogan }}</p>
     </div>
   </main>
