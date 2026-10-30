@@ -11,7 +11,7 @@ const routes = [
   {
     path: '/other',
     name: 'other',
-    component: () => import('@/views/OtherPage.vue'),
+    component: () => import('@/views/InfoPage.vue'),
   },
   {
     path: '/:pathMatch(.*)*',
