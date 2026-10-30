@@ -16,7 +16,7 @@ const profile = ref({
       <img 
       :src="profile.avatar" 
       :alt="profile.name"
-      class="h-full w-full overflow-hidden rounded-full"
+      class="h-full w-full overflow-hidden rounded-full border-4 border-lime-400"
       />
     </div
     ><h1>{{ profile.name }}</h1>
