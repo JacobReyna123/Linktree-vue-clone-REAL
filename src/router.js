@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
+
 import HomePage from '@/views/HomePage.vue'
 
 const routes = [
@@ -11,7 +12,8 @@ const routes = [
   {
     path: '/other',
     name: 'other',
-    component: () => import('@/views/InfoPage.vue'),
+    
+    component: () => import('@/views/info.vue'),
   },
   {
     path: '/:pathMatch(.*)*',
@@ -25,3 +27,4 @@ const router = createRouter({
 })
 
 export default router
+
