@@ -25,6 +25,17 @@ const profile = ref({
      <h1 class="font-display mb-2 text-2xt font-bold text-white sm:text-3xl">{{ profile.name }}</h1>
       <p class="max-w-xs text-gray-300 sm:text-lg">{{ profile.slogan }}</p>
     </div>
+
+    <!--LINK LIST-->
+    <div class="flex w-full max-w-md flex-col gap-4">
+      <LinkCard v-for="x of [1,2,3]"
+      :key="x"/>
+    </div>
+
+    <!--NAVIGATE TO INFO-->
+    <RouterLink to="/info"
+     class="mt-8 text-black-400 underline-offset-4 hover:underline hover:text-green-400"
+    >About Link</RouterLink>
   </main>
 </template>
 
