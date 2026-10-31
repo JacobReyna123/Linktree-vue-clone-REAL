@@ -34,8 +34,8 @@ const profile = ref({
 
     <!--NAVIGATE TO INFO-->
     <RouterLink to="/info"
-     class="mt-8 text-black-400 underline-offset-4 hover:underline hover:text-green-400"
-    >About Link</RouterLink>
+     class="mt-8 text-black-400 underline-offset-4  hover:text-green-400 hover:underline transition-colors duration: 200"
+    >About Link ➡️</RouterLink>
   </main>
 </template>
 
