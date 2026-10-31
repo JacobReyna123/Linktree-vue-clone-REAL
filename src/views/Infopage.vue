@@ -5,7 +5,7 @@
       to="/"
       class="mt-8 text-gray-400 underline-offset-4 hover:text-green-400 hover:underline transition-colors duration-200"
     >
-      Back To Links
+      Back To Links 🔙
     </RouterLink>
   </main>
 </template>

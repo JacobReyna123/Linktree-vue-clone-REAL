@@ -11,7 +11,7 @@ const routes = [
   {
     path: '/info',
     name: 'info',
-    component: () => import('@/views/InfoPage.vue'),
+    component: () => import('@/views/Infopage.vue'),
   },
 ]
 
