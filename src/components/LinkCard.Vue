@@ -22,9 +22,9 @@ d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path>
     </div>
 
     <!-- Text Content -->
-    <div class="flex flex-col">
-      <span class="font-semibold text-white">Link Title</span>
-      <span class="text-sm text-gray-400">Description or subtitle</span>
+    <div class="min-w-0 flex-1">
+      <h3 class="truncate font-display font-semibold text-white">Link Title</h3>
+      <p class="truncate text-sm text-white">Link General Info</p>
     </div>
   </a>
 </template>
