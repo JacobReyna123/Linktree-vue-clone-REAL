@@ -28,5 +28,8 @@
       <h3 class="truncate font-display font-semibold text-white">Link Title</h3>
       <p class="truncate text-sm text-white">Link General Info</p>
     </div>
+
+    <!-- Hover glow effect -->
+    <div class="absolute inset-0 pointer-events-none rounded-xl bg-linear-to-right from-green-500/0 via-green-500/10 to-green-500/0 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
   </a>
 </template>
