@@ -30,6 +30,6 @@
     </div>
 
     <!-- Hover glow effect -->
-    <div class="absolute inset-0 pointer-events-none rounded-xl bg-linear-to-right from-green-500/0 via-green-500/10 to-green-500/0 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+    <div class="absolute inset-0 rounded-xl bg-linear-to-right from-green-500/0 via-green-500/10 to-green-500/0 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
   </a>
 </template>
