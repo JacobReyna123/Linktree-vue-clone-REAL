@@ -25,7 +25,7 @@ const bio = ref({
     <!--Prof Card-->
     <div class="w-full max-w-lg rounded-2xl border border-gray-700 bg-gray-800 p-6 shadow-xl shadow-gray-900/50 sm:p-8">
 
-      <!--Header (FIX: Added mb-6 for layout breathing room)-->
+      <!--Header-->
       <div class="mb-6 flex flex-col items-center text-center sm:flex-row sm:text-left">
        
         <div class="mb-4 h-20 w-20 shrink-0 overflow-hidden rounded-full border-4 border-green-400 sm:mb-0 sm:mr-6">
@@ -64,9 +64,12 @@ const bio = ref({
 
      <!-- Contact -->
       <div>
-        <h2 class="mb-3 text-lg font-semibold text-white">Get in Touch</h2>
+        <h2 class="mb-3 text-lg font-semibold text-white">Contact Me</h2>
+        <!-- FIX: Changed bio.email to bio.PrimaryEmail -->
         <a
-          :href="`mailto:${bio.email}`"
+          :href="`mailto:${bio.PrimaryEmail}`"
+          target="_blank"
+          rel="noopener noreferrer"
           class="group inline-flex items-center gap-2 rounded-xl bg-green-500 px-6 py-3 font-medium text-white shadow-lg shadow-green-500/30 transition-all duration-200 hover:scale-105 hover:bg-green-600 hover:shadow-xl hover:shadow-green-500/40 active:scale-95"
         >
           <svg
