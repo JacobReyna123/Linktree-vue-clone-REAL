@@ -21,13 +21,7 @@ const profile = ref({
       icon: 'briefcase',
       description: 'Preview my Job Skills'
     },
-    {
-      id: 3,
-      title: 'Github', 
-      url: 'https://github.com/JacobReyna123',
-      icon: 'code',
-      description: 'Check out my Github'
-    }
+  
   ]
 })
 </script>
@@ -57,7 +51,6 @@ const profile = ref({
     </div>
 
     <!--NAVIGATE TO INFO-->
-    <!-- Fixed: Corrected text-black-400 to text-gray-400 and duration: 200 to duration-200 -->
     <RouterLink to="/info"
      class="mt-8 text-gray-400 underline-offset-4 hover:text-green-400 hover:underline transition-colors duration-200"
     >About Link ➡️</RouterLink>
