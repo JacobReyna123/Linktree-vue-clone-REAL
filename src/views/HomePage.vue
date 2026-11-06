@@ -47,6 +47,8 @@ const profile = ref({
         v-for="link in profile.links"
         :key="link.id"
         :link="link"
+        :title="link.title"
+        :url="link.url"
       />
     </div>
 
