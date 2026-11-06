@@ -11,7 +11,7 @@ const profile = ref({
       id: 1,
       title: 'Github', 
       url: 'https://github.com/JacobReyna123',
-      icon: 'code',
+      icon: 'computer', // Changed from 'code' to 'computer'
       description: 'Check out my Github'
     },
     {
@@ -49,6 +49,8 @@ const profile = ref({
         :link="link"
         :title="link.title"
         :url="link.url"
+        :description="link.description"
+        :icon="link.icon"
       />
     </div>
 
@@ -58,3 +60,5 @@ const profile = ref({
     >About Link ➡️</RouterLink>
   </main>
 </template>
+
+
