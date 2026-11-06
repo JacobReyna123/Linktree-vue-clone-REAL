@@ -15,18 +15,18 @@ const profile = ref({
       description: 'Check out my Github'
     },
     {
-      id: 2,
-      title: 'SPLIT-O-MATIC',
-      url: 'https://expense-splitter-vue.thecomicclan.workers.dev/',
-      icon: 'code',
-      description: 'Live Website Deploy for Advanced Calculator (Homemade)'
-    },
-    {
-      id: 3,
+        id: 2,
       title: 'Indeed', 
       url: 'https://indeed.com',
       icon: 'briefcase',
       description: 'Preview my Job Skills'
+    },
+    {
+      id: 3,
+      title: 'SPLIT-O-MATIC',
+      url: 'https://expense-splitter-vue.thecomicclan.workers.dev/',
+      icon: 'code',
+      description: 'Live Vue web application project'
     }
   ]
 })
