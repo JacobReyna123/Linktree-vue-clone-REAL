@@ -10,21 +10,28 @@ const profile = ref({
     {
       id: 1,
       title: 'Github', 
-      url: 'https://github.com/JacobReyna123',
-      icon: 'computer', // Changed from 'code' to 'computer'
+      url: 'https://github.com',
+      icon: 'computer',
       description: 'Check out my Github'
     },
     {
       id: 2,
+      title: 'SPLIT-O-MATIC',
+      url: 'https://expense-splitter-vue.thecomicclan.workers.dev/',
+      icon: 'code',
+      description: 'Live Website Deploy for Advanced Calculator (Homemade)'
+    },
+    {
+      id: 3,
       title: 'Indeed', 
-      url: 'https://profile.indeed.com/?hl=en_US&co=US&from=gnav-menu-homepage--homepage-frontend',
+      url: 'https://indeed.com',
       icon: 'briefcase',
       description: 'Preview my Job Skills'
-    },
-  
+    }
   ]
 })
 </script>
+
 
 <template>
   <main class="flex min-h-screen flex-col items-center px-4 py-8">
