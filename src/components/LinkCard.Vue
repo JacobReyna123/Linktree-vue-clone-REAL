@@ -39,6 +39,9 @@ const icons = {
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
         class="h-6 w-6"
         v-html="icons[icon] || icons.flag"
       >
@@ -55,4 +58,3 @@ const icons = {
     <div class="absolute inset-0 rounded-xl bg-gradient-to-r from-green-500/0 via-green-500/10 to-green-500/0 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
   </a>
 </template>
-

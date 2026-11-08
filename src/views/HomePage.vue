@@ -4,7 +4,7 @@ import LinkCard from '@/components/LinkCard.vue'
 
 const profile = ref({
   name: 'Jacob Reyna',
-  slogan: 'Current STC Student about to finish IT Specalist Bachelors',
+  slogan: 'Current STC Student about to finish IT Specialist Bachelors',
   avatar: new URL('@/assets/Profile.jpeg', import.meta.url).href,
   links: [
     {
@@ -17,7 +17,7 @@ const profile = ref({
     {
       id: 2,
       title: 'Linkedin', 
-      url: 'https://linkedin.com',
+      url: 'https://www.linkedin.com/in/jacob-reyna-a491b044a/',
       icon: 'briefcase', 
       description: 'My Linkedin Page'
     },
@@ -32,9 +32,8 @@ const profile = ref({
 })
 </script>
 
-
 <template>
-  <main class="flex min-h-screen bg-gray-900 flex-col items-center px-4 py-8">
+  <main class="flex flex-col min-h-screen bg-gray-900 items-center px-4 py-8">
     <!--Profile Header-->
     <div class="mb-8 flex flex-col items-center text-center">
        <div class="mb-4 h-24 w-24 overflow-hidden rounded-full border-4 border-green-400 shadow-lg shadow-green-500/20 sm:h-32 sm:w-32">
@@ -53,7 +52,6 @@ const profile = ref({
       <LinkCard 
         v-for="link in profile.links"
         :key="link.id"
-        :link="link"
         :title="link.title"
         :url="link.url"
         :description="link.description"
