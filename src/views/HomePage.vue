@@ -10,19 +10,17 @@ const profile = ref({
     {
       id: 1,
       title: 'Github', 
-      url: 'https://profile.indeed.com/?hl=en_US&co=US&from=gnav-menu-homepage',
+      url: 'https://github.com/JacobReyna123',
       icon: 'computer',
       description: 'Check out my Github'
     },
-  {
-  id: 2,
-  title: 'Resume', 
-
-  url: new URL('@/assets/Resume.pdf', import.meta.url).href,
-  icon: 'file-text', 
-  description: 'View my Resume'
-},
-
+    {
+      id: 2,
+      title: 'Linkedin', 
+      url: 'https://linkedin.com',
+      icon: 'briefcase', 
+      description: 'My Linkedin Page'
+    },
     {
       id: 3,
       title: 'SPLIT-O-MATIC',
@@ -36,7 +34,6 @@ const profile = ref({
 
 
 <template>
-  <!-- Fixed: Added bg-gray-900 here to explicitly enforce the dark background theme -->
   <main class="flex min-h-screen bg-gray-900 flex-col items-center px-4 py-8">
     <!--Profile Header-->
     <div class="mb-8 flex flex-col items-center text-center">
