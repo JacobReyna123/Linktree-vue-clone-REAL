@@ -4,23 +4,25 @@ import LinkCard from '@/components/LinkCard.vue'
 
 const profile = ref({
   name: 'Jacob Reyna',
-  slogan: 'Game Designer in the Making',
+  slogan: 'Current STC Student about to finish IT Specalist Bachelors',
   avatar: new URL('@/assets/Profile.jpeg', import.meta.url).href,
   links: [
     {
       id: 1,
       title: 'Github', 
-      url: 'https://github.com',
+      url: 'https://profile.indeed.com/?hl=en_US&co=US&from=gnav-menu-homepage',
       icon: 'computer',
       description: 'Check out my Github'
     },
-    {
-        id: 2,
-      title: 'Indeed', 
-      url: 'https://indeed.com',
-      icon: 'briefcase',
-      description: 'Preview my Job Skills'
-    },
+  {
+  id: 2,
+  title: 'Resume', 
+
+  url: new URL('@/assets/Resume.pdf', import.meta.url).href,
+  icon: 'file-text', 
+  description: 'View my Resume'
+},
+
     {
       id: 3,
       title: 'SPLIT-O-MATIC',
@@ -34,7 +36,8 @@ const profile = ref({
 
 
 <template>
-  <main class="flex min-h-screen flex-col items-center px-4 py-8">
+  <!-- Fixed: Added bg-gray-900 here to explicitly enforce the dark background theme -->
+  <main class="flex min-h-screen bg-gray-900 flex-col items-center px-4 py-8">
     <!--Profile Header-->
     <div class="mb-8 flex flex-col items-center text-center">
        <div class="mb-4 h-24 w-24 overflow-hidden rounded-full border-4 border-green-400 shadow-lg shadow-green-500/20 sm:h-32 sm:w-32">
@@ -67,5 +70,3 @@ const profile = ref({
     >About Link ➡️</RouterLink>
   </main>
 </template>
-
-
